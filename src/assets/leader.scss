@@ -1,0 +1,108 @@
+ /*主播列表START*/
+ 
+ .searchbar {
+     max-width: 600px;
+     height: 60px;
+     margin: 20px auto;
+     background: url(https://vmo.17.media/2005-tw-city/static/images/city_search.png) no-repeat;
+     background-size: 100%;
+     position: relative;
+     input {
+         width: 90%;
+         outline: none;
+         border-style: none;
+         background: transparent;
+         padding: 22px;
+         margin: auto 0;
+         @media screen and(max-width: 780px) {
+             padding: 6px;
+         }
+         &::placeholder {
+             font-size: 1.3rem;
+             color: rgb(170, 205, 100);
+             @media screen and(max-width: 780px) {
+                 font-size: 1rem;
+             }
+         }
+     }
+ }
+ 
+ .leaderswrap {
+     max-width: 900px;
+     margin: 0 auto;
+     background-image: linear-gradient(rgb(82, 117, 37), rgb(110, 147, 49));
+     border-radius: 65px;
+     list-style: none;
+     border-bottom-style: groove;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 8px;
+     .rank {
+         padding: 8px;
+         font-size: 20px;
+         font-weight: 500;
+         color: yellow;
+     }
+     .avatar {
+         img {
+             width: 100px;
+             height: 100px;
+             border-radius: 50px;
+             border: 1px solid white;
+
+             @media screen and(max-width: 780px) {
+              width: 80px;
+              height: 80px;
+            }
+         }
+         svg {
+             position: relative;
+             left: -20px;
+             top: 30px;
+         }
+     }
+     .content {
+         width: 40%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         font-size: 1.3rem;
+         @media screen and(max-width: 780px) {
+             font-size: 1rem;
+         }
+         i {
+             width: 40px;
+             height: 30px;
+             color: white;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_check.png)center no-repeat;
+             background-size: contain;
+             border-radius: 10px;
+         }
+     }
+ }
+ 
+ .map {
+     button {
+         width: 80px;
+         height: 50px;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_button-open.png) center no-repeat;
+         background-size: cover;
+         border: 0px;
+         border-radius: 20px;
+         cursor: pointer;
+         padding: 0;
+         &.active {
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_button-close.png) center no-repeat;
+             background-size: cover;
+         }
+         &:focus {
+             outline: none;
+         }
+     }
+ }
+ 
+ .mapbox {
+     padding: 10px 12px;
+ }
+ /*主播列表END*/

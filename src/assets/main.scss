@@ -1,0 +1,30 @@
+@import "eventstatus";
+@import "board";
+@import "leader";
+@import "eventtitle";
+@import "nav";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://vmo.17.media/2005-tw-city/static/images/city_background.png);
+    background-size: 100%;
+    font-family: "PingFangTC", "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header-video {
+    max-width: 880px;
+    margin: 0 auto;
+    video {
+        width: 100%;
+    }
+}

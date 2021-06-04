@@ -1,0 +1,280 @@
+ .mainselect {
+     max-width: 880px;
+     display: flex;
+     justify-content: center;
+     margin: -190px auto 0;
+     @media screen and(max-width: 780px) {
+         margin: -110px auto 0;
+     }
+ }
+ 
+ .allselect {
+     max-width: 100%;
+     height: 40vh;
+     z-index: 1;
+     @media screen and(max-width: 780px) {
+         height: 23vh;
+     }
+     li {
+         list-style: none;
+         cursor: pointer;
+     }
+     .top {
+         width: 100%;
+         height: 22vh;
+         display: flex;
+         justify-content: space-between;
+         @media screen and(max-width: 780px) {
+             margin-bottom: -80px;
+         }
+     }
+     .bottom {
+         width: 100%;
+         height: 21vh;
+         display: flex;
+         justify-content: center;
+         li {
+             margin-left: 5px;
+         }
+     }
+ }
+ 
+ .select01 {
+     width: 20%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select02 {
+     width: 20vw;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t00.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t00_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select03 {
+     width: 20vw;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t1.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t1_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select04 {
+     width: 20vw;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t2.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t2_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select05 {
+     width: 20vw;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t3.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t3_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select06 {
+     width: 20vw;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t4.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t4_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .select07 {
+     width: 20%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t6.png)no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t6_a.png)no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .subselect {
+     max-width: 880px;
+     height: 22vh;
+     display: flex;
+     justify-content: center;
+     margin: 0px auto;
+     @media screen and(max-width: 780px) {
+         height: 12vh;
+     }
+ }
+ 
+ .sbsel01 {
+     width: 30.33%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t0.png) no-repeat;
+         cursor: pointer;
+         background-size: contain;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t0_a.png) no-repeat;
+             cursor: pointer;
+             background-size: contain;
+         }
+     }
+ }
+ 
+ .sbsel02 {
+     width: 30.33%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t1.png) no-repeat;
+         cursor: pointer;
+         background-size: contain;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t1_a.png) no-repeat;
+             cursor: pointer;
+             background-size: contain;
+         }
+     }
+ }
+ 
+ .sbsel03 {
+     width: 30.33%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t2.png) no-repeat;
+         cursor: pointer;
+         background-size: contain;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t0_t2_a.png) no-repeat;
+             cursor: pointer;
+             background-size: contain;
+         }
+     }
+ }
+ //NAV城市建築師
+ 
+ .subselect2 {
+     max-width: 880px;
+     height: 20vh;
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     margin-top:50px;
+     @media screen and(max-width: 780px) {
+         height: 10vh;
+     }
+ }
+ 
+ .sbsel001 {
+     width: 33%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t5_t0.png) no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t5_t0_a.png) no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }
+ 
+ .sbsel002 {
+     width: 33%;
+     div {
+         width: 100%;
+         height: 100%;
+         background: url(https://vmo.17.media/2005-tw-city/static/images/city_t5_t1.png) no-repeat;
+         background-size: contain;
+         cursor: pointer;
+         &.active {
+             width: 100%;
+             height: 100%;
+             background: url(https://vmo.17.media/2005-tw-city/static/images/city_t5_t1_a.png) no-repeat;
+             background-size: contain;
+             cursor: pointer;
+         }
+     }
+ }

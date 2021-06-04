@@ -1,0 +1,56 @@
+/*NAV活動說明START*/
+
+.eventpic {
+    background: linear-gradient(rgb(110, 147, 49), rgb(82, 117, 37));
+    margin: 0px auto;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    max-width: 880px;
+    padding: 20px 40px;
+    img {
+        width: 100%;
+    }
+}
+
+.content {
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 750px;
+}
+
+.title {
+    position: relative;
+    max-width: calc(100% + 64px);
+    min-height: 127px;
+    text-align: center;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    padding-top: 13.5%;
+    padding-bottom: 12%;
+    background: url(https://storage.googleapis.com/media17-prod-web-assets/campaign/2005-tw-city/0b461699-2caa-45c3-b5e2-0b0a6e391967) center center no-repeat;
+    background-repeat: no-repeat;
+}
+
+.title2 {
+    font-size: 24px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(65, 108, 165);
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+.noticelist {
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+
+/*NAV活動說明END*/
